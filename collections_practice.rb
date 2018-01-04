@@ -41,7 +41,9 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-
+  kesha_words = []
+  array.each do |word|
+    
 end
 
 def find_a(array)
