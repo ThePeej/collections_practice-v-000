@@ -33,7 +33,7 @@ describe 'collections practice' do
   # Question 4 - Advanced
   describe '#swap_elements_from_to' do
     it 'swap element to any position' do
-      expect(swap_elements_from_to(["blake", "ashley", "scott"],0,2)).to eq(["ashley", "scott", "blake"])
+      expect(swap_elements_from_to(["blake", "ashley", "scott"],0,2)).to eq(["scott", "ashley", "blake"])
     end
   end
 
