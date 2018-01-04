@@ -43,7 +43,9 @@ end
 def kesha_maker(array)
   kesha_words = []
   array.each do |word|
-    
+    word[2] = "$"
+    kesha_words << word
+  end
 end
 
 def find_a(array)
